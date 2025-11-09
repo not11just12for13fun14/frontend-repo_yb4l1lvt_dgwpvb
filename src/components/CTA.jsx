@@ -27,7 +27,7 @@ export default function CTA() {
                 <div className="text-xs text-neutral-300">TPS</div>
               </div>
               <div className="rounded-xl bg-white/10 p-4">
-                <div className="text-2xl font-bold">< 1s</div>
+                <div className="text-2xl font-bold">&lt; 1s</div>
                 <div className="text-xs text-neutral-300">Finalitas</div>
               </div>
               <div className="rounded-xl bg-white/10 p-4">
