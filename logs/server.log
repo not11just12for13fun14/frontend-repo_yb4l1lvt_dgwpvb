@@ -1,0 +1,57 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 200 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.19.66:3000/
+10:12:28 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/CTA.jsx:30:54: ERROR: Expected identifier but found "1"
+10:12:30 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/CTA.jsx:30:54: ERROR: Expected identifier but found "1"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/CTA.jsx:30:54
+  
+  Expected identifier but found "1"
+  28 |                </div>
+  29 |                <div className="rounded-xl bg-white/10 p-4">
+  30 |                  <div className="text-2xl font-bold">< 1s</div>
+     |                                                        ^
+  31 |                  <div className="text-xs text-neutral-300">Finalitas</div>
+  32 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+10:12:34 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/CTA.jsx:30:54: ERROR: Expected identifier but found "1"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/CTA.jsx:30:54
+  
+  Expected identifier but found "1"
+  28 |                </div>
+  29 |                <div className="rounded-xl bg-white/10 p-4">
+  30 |                  <div className="text-2xl font-bold">< 1s</div>
+     |                                                        ^
+  31 |                  <div className="text-xs text-neutral-300">Finalitas</div>
+  32 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
